@@ -1,0 +1,27 @@
+.avatar-container{
+    padding: 2rem;
+    display: flex;
+    align-items:center;
+    width:30rem;
+}
+
+.avatar-item{
+    border-radius: 50%;
+    border: 3px solid var(--grey);
+    margin-left:2rem ;
+}
+
+.avatar-lg{
+    height:6rem;
+    width:6rem;
+}
+
+.avatar-md{
+    height: 5rem;
+    width: 5rem;
+}
+
+.avatar-sm{
+    height: 4rem;
+    width: 4rem;
+}

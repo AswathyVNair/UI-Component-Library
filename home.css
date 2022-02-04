@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+:root{
+    --dark-green:#065f46;
+    --green:#059669;
+    --light-cyan:#cffafe;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0rem;
+   background-color: var(--light-cyan);
+} 
+
+.nav-container{
+    padding:1rem 0rem;
+    display:flex;
+    justify-content: flex-end;    
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size:large;
+    font-weight:bold;
+    color:var(--green);
+    margin-right:2rem;
+    padding:0.3rem;    
+}
+
+.nav-item:hover{
+    color: var(--dark-green);
+}
+
+.home
+{
+    color: var(--dark-green);
+}
+
+.content-container{
+   
+    max-width: 40rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 2rem;
+}
+
+.home-page-btn{
+    background-color:var(--green);
+    text-decoration:none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--light-cyan);
+    font-weight:bold; 
+    font-size:1.2rem;
+}
+
+.home-page-btn:hover{
+    background-color: var(--dark-green);
+}
+
+.home-page-description{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.home-page-heading{
+    color:var(--green);
+    font-size: 3rem;
+    margin: 0rem;
+}

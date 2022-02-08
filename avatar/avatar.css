@@ -1,0 +1,31 @@
+.avatar-container{
+    width: 50rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+
+.avatar-item{
+    border-radius: 50%;
+}
+
+.avatar-ex-lg{
+    height: 10rem;
+    width: 10rem
+}
+.avatar-lg{
+    height:7rem;
+    width:7rem;
+}
+
+.avatar-md{
+    height: 5rem;
+    width: 5rem;
+}
+
+.avatar-sm{
+    height: 3rem;
+    width: 3rem;
+}

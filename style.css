@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+@import url(avatar/avatar.css);
+@import url(badge/badge.css);
+
+
+:root{
+  --dark-green:#065f46;
+  --green:#059669;
+  --light-cyan:#cffafe;
+  --grey:#4b5563;
+  --light-grey:#cbd5e1;
+  --yellow:#fbbf24;
+  --red:#fd0404;
+  --white:#f8fafc;
+  --light-blue:#06b6d4;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0rem;
+
+}
+
+.nav-container{
+  padding:1rem 0rem;
+  display:flex;
+  justify-content: flex-end;
+  background-color: var(--light-cyan);
+  box-shadow: 0 0 0.5rem 0.1rem var(--light-grey);
+}
+
+.nav-item{
+  text-decoration: none;
+  font-size:large;
+  font-weight:bold;
+  color:var(--green);
+  margin-right:2rem;
+  padding:0.3rem;
+}
+
+.nav-item:hover{
+  color: var(--dark-green);
+}
+
+.docs{
+  color: var(--dark-green);
+}
+
+.sidebar{
+  height:40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-basis: 20rem;
+}
+
+.sidebar-item{
+  text-decoration: none;
+  color: var(--green);
+  font-size: 1.5rem;
+}
+
+.sidebar-item:hover{
+  font-weight: bold;
+  color: var(--dark-green);
+}
+
+
+.heading-sidebar{
+  color: var(--green);
+}
+
+.current-sidebar-item{
+  font-weight: bold;
+  color:var(--dark-green);
+}
+
+.page-flex-container{
+  display:flex;
+  justify-content: space-between;
+}
+
+.main-content .heading{
+  color: var(--green);
+}
+
+.main-content{
+  flex-grow: 1;
+  padding-left: 5rem;
+  align-items: flex-start;
+  margin-right: 2rem;
+}
+

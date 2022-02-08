@@ -1,0 +1,100 @@
+.badge-on-icon-container{
+    margin:2rem;
+    padding: 1rem;  
+}
+
+.badge-on-icon-btn{
+    position: relative;
+    border:none;
+    margin-right: 2rem;
+}
+
+.badge{
+    border-radius: 50%;
+    position: absolute;
+    color:var(--white);
+    border:1px solid var(--white);
+}
+
+.icon-badge{
+    height:2rem;
+    width:2rem;
+    padding: 0.5rem;
+}
+
+.notification-btn{
+    border-radius: 50%;
+    background-color:transparent;
+}
+
+.notification-icon{
+    font-size: 3rem;
+}
+
+.notification-badge{
+    background-color:var(--light-blue);
+    border-radius: 50%;
+    top: -1rem;
+    right: 0.01rem;
+} 
+
+.envelope-btn{
+    padding: 0.5rem;
+    background-color:var(--light-grey);
+    border-radius: 0.5rem;
+}
+
+.envelope-icon{
+    font-size: 2rem;
+}
+
+.envelope-badge{
+    background-color:var(--red);
+    border-radius: 50%;
+    bottom: 2.5rem;
+}
+
+.video-off-btn{
+    border-radius:50%;
+    padding: 0.75rem;
+}
+
+.video-off-icon{
+    font-size: 2rem;
+    color: var(--grey);
+}
+
+.video-off-badge{
+    background-color:var(--yellow);
+    bottom: 2.5rem;
+}
+
+.badge-avatar-parent{
+    position: relative;
+}
+
+
+.green-badge{
+    background-color:var(--green);
+    height: 2rem;
+    width: 2rem;
+    top:8rem;
+    right: 1rem;
+}
+
+.blue-badge{
+    background-color:var(--light-blue);
+    height:1.5rem;
+    width:1.5rem;
+    padding-left: 5px;
+    right: 5rem;
+    color: var(--white);
+}
+
+.red-badge{
+    background-color: var(--red);
+    height: 0.75rem;
+    width: 0.75rem;
+    right: 0.5rem;
+    top:0.5rem;
+}

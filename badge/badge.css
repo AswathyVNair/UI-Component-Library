@@ -1,0 +1,94 @@
+.badge-on-icon-container{
+    margin:2rem;
+    padding: 1rem;  
+}
+
+.badge-on-icon-btn{
+    position: relative;
+    border:none;
+    margin-right: 2rem;
+}
+
+.badge{
+    border-radius: 50%;
+    position: absolute;
+    color:var(--white);
+    border:1px solid var(--white);
+}
+
+
+
+.notification-btn{
+    border-radius: 50%;
+    background-color:transparent;
+}
+
+.notification-icon{
+    font-size: 3rem;
+}
+
+.notification-badge{
+    background-color:var(--light-blue);
+    padding:0.5rem;
+    border-radius: 50%;
+    top: -1rem;
+    right: 0.01rem;
+} 
+
+.envelope-btn{
+    padding: 0.5rem 1rem;
+    background-color:var(--light-grey);
+    border-radius: 0.5rem;
+}
+
+.envelope-icon{
+    font-size: 2rem;
+}
+
+.envelope-badge{
+    background-color:var(--red);
+    padding: 0.2rem;
+    border-radius: 50%;
+    bottom: 2.5rem;
+}
+
+.video-off-btn{
+    border-radius:50%;
+    padding: 0.75rem;
+}
+
+.video-off-icon{
+    font-size: 2rem;
+    color: var(--grey);
+}
+
+.video-off-badge{
+    background-color:var(--yellow);
+    padding: 0.2rem 0.5rem;
+    bottom: 2.5rem;
+}
+
+.badge-avatar{
+    position: relative;
+}
+
+.green-badge{
+    background-color:var(--green);
+    padding: 0.75rem 0.75rem;
+    top:8rem;
+    right: 1rem;
+}
+
+.blue-badge{
+    background-color:var(--light-blue);
+    padding: 0.1rem 0.4rem;
+    right: 5rem;
+    color: var(--white);
+}
+
+.red-badge{
+    background-color: var(--red);
+    padding: 0.3rem 0.3rem;
+    right: 0.5rem;
+    top:0.5rem;
+}

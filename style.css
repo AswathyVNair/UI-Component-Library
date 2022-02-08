@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
 @import url(avatar/avatar.css);
+@import url(badge/badge.css);
+
 
 :root{
 --dark-green:#065f46;
@@ -7,6 +9,11 @@
 --light-cyan:#cffafe;
 --grey:#4b5563;
 --light-grey:#cbd5e1;
+--yellow:#fbbf24;
+--red:#fd0404;
+--white:#f8fafc;
+--light-blue:rgb(20, 164, 212);
+
 }
 
 *{
@@ -61,33 +68,32 @@ font-size: 1.5rem;
 }
 
 .sidebar-item:hover{
-color:var(--dark-green);
-font-weight:bold;
+    font-weight: bold;
+    color: var(--dark-green);
 }
+
 
 .heading-sidebar{
 color: var(--green);
 }
 
-.sidebar-item-avatar{
-color:var(--dark-green);
-font-weight:bold;
-}
+.current-sidebar-item{
+    font-weight: bold;
+    color:var(--dark-green);
+    }
 
 .page-flex-container{
-    color: var();
     display:flex;
     justify-content: space-between;
 }
 
-.main-content h1{
+.main-content .heading{
     color: var(--green);
 }
 
 .main-content{
-    
     flex-grow: 1;
-    padding-left: 10rem;
+    padding-left: 5rem;
     align-items: flex-start;
     margin-right: 2rem;
 }

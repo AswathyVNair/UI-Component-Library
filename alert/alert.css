@@ -11,7 +11,7 @@
     height: 3.5rem;
     display: flex;
     align-items: center;
-    border-radius: 0.3rem;
+    border-radius: 3px;
 }
     
 .success-alert{    
@@ -40,7 +40,7 @@
     
 i,.alert-message{
     padding-left: 1rem;
-    
+      
 }
 
 i{    

@@ -6,13 +6,18 @@
 :root{
   --dark-green:#065f46;
   --green:#059669;
+  --light-green:#dcfce7;
   --light-cyan:#cffafe;
   --grey:#4b5563;
   --light-grey:#cbd5e1;
   --yellow:#fbbf24;
+  --light-yellow:#fcf9d7;
   --red:#fd0404;
   --white:#f8fafc;
   --light-blue:#06b6d4;
+  --violet:#5b21b6;
+  --light-violet:#ede9fe;
+  --light-red:#fee2e2;
 
 }
 

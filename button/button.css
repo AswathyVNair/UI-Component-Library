@@ -16,25 +16,22 @@ body{
     border:none;
     transition:0.5s;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-icon{
     background-color:var(--white);
 }
 
-.btn-flex{
-    justify-content: center;
-    align-items: center;
-}
-
-.btn-primary-1,
-.btn-primary-3,
+.btn-primary-type-1,
+.btn-primary-type-3,
 .btn-floating-action{
     color: var(--white);
 }
 
-.btn-primary-1,
-.btn-primary-3,.btn-link-1,
+.btn-primary-type-1,
+.btn-primary-type-3,.btn-link-1,
 .btn-link-2{
     border-radius:3px;
 }
@@ -51,39 +48,39 @@ body{
 
 .btn-heart-icon,
 .btn-search-icon:hover,
-.btn-primary-3{
+.btn-primary-type-3{
     border-radius: 0.5rem;
 }
 
-.btn-primary-1,
+.btn-primary-type-1,
 .btn-floating-action{
     background-color: var(--green);
 }
 
-.btn-primary-1{
+.btn-primary-type-1{
     border-radius:3px;
 }
 
-.btn-primary-1:hover,
+.btn-primary-type-1:hover,
 .btn-floating-action:hover{
     background-color:var(--dark-green);
 }
 
-.btn-primary-2{
+.btn-primary-type-2{
     background-color: var(--yellow);
     color:var(--black);
     border-radius: 1rem;
 }
 
-.btn-primary-2:hover{
+.btn-primary-type-2:hover{
     background-color:var(--dark-yellow);
 }
 
-.btn-primary-3{
+.btn-primary-type-3{
     background-color: var(--red);
 }
 
-.btn-primary-3:hover{
+.btn-primary-type-3:hover{
     background-color:var(--dark-red);
 }
 

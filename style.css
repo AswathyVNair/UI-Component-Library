@@ -10,14 +10,22 @@
   --light-cyan:#cffafe;
   --grey:#4b5563;
   --light-grey:#cbd5e1;
+  --dark-yellow:#f59e0b;
   --yellow:#fbbf24;
   --light-yellow:#fcf9d7;
+  --dark-red:#dc2626;
   --red:#fd0404;
-  --white:#f8fafc;
+  --white:#fff;
+  --dark-blue:#075985;
   --light-blue:#06b6d4;
+  --light-blue1:#95d1eb;
+  --light-blue2:#9ee2ff;
   --violet:#5b21b6;
   --light-violet:#ede9fe;
   --light-red:#fee2e2;
+  --black:#171717;
+  --stone:#e7e5e4;
+
 
 }
 
@@ -99,6 +107,6 @@ body{
   flex-grow: 1;
   padding-left: 5rem;
   align-items: flex-start;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 

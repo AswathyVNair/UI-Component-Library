@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compopnent Library</title>
+    <link href="../style.css" rel="stylesheet" />
+    <link href="card.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <nav class="nav-container">
+      <a class="home nav-item" href="/">home</a>
+      <a class="docs nav-item" href="/">docs</a>
+    </nav>
+
+    <div class="page-flex-container">
+      <aside class="page-flex-item sidebar">
+        <h1 class="heading-sidebar">Components</h1>
+        <a class="sidebar-item" href="/avatar/avatar.html">Avatar</a>
+        <a class="sidebar-item" href="/alert/alert.html">Alert</a>
+        <a class="sidebar-item" href="/badge/badge.html">Badge</a>
+        <a class="sidebar-item" href="/button/button.html">Button</a>
+        <a class="sidebar-item current-sidebar-item" href="/card/card.html">Card</a>
+        <a class="sidebar-item" href="/">Image</a>
+        <a class="sidebar-item" href="/">Input</a>
+      </aside>
+
+      <main class="page-flex-item main-content">
+        <h1 class="heading">Card</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+          justo imperdiet mollis nec vitae erat. Curabitur commodo sapien non
+          diam pharetra vehicula. Praesent efficitur neque nec eros volutpat
+          facilisis.
+        </p>
+         
+
+        <h2 class = "heading">Basic Card</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+            justo imperdiet mollis nec vitae erat.
+            facilisis.
+          </p>
+
+            <div class="basic-card basic-card-vertical border-radius-5px">
+
+                <div class = "img-section">
+                    <img class ="card-img card-flex-item border-radius-5px" src="/images/card-img.jpeg">
+                    <button class="btn-wishlist border-radius-5px"><i class="bi bi-heart-fill"></i></button>
+                </div>
+                
+                <div class="card-body">
+    
+                    <p>Trendy Elegant Women Tops & Tunics</p>
+    
+                    <div class = "price-details">
+                        <span class = "new-price">&#x20B9 158</span>
+                        <span class = "old-price">&#x20B9 225</span>
+                        <span class = "offer">30% off</spam>
+                    </div>
+                   
+                     <div class = "rating">
+                        <span>3.9</span>
+                        <span><i class="bi bi-star-fill"></i></span>
+                     </div>
+                    
+                    <button class="btn-addtocart border-radius-5px"><i class="bi bi-cart"></i>Add To Cart</button>
+    
+                </div>
+                
+            </div>
+
+
+        <h2 class = "heading">Card with badge</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+            justo imperdiet mollis nec vitae erat.
+            facilisis.
+          </p>
+
+        <div class="basic-card basic-card-vertical border-radius-5px">
+
+            <div class = "img-section">
+                <img class ="card-img card-flex-item border-radius-5px" src="/images/card-img.jpeg">
+                <button class="btn-wishlist border-radius-5px"><i class="bi bi-heart-fill"></i></button>
+                <span class="badge-on-card">New</span>
+            </div>
+            
+            <div class="card-body">
+
+                <p>Trendy Elegant Women Tops & Tunics</p>
+
+                <div class = "price-details">
+                    <span class = "new-price">&#x20B9 158</span>
+                    <span class = "old-price">&#x20B9 225</span>
+                    <span class = "offer">30% off</spam>
+                </div>
+               
+                 <div class = "rating">
+                    <span>3.9</span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                 </div>
+                
+                <button class="btn-addtocart border-radius-5px"><i class="bi bi-cart"></i>Add To Cart</button>
+                
+
+            </div>
+            
+        </div>
+
+
+        <h2 class = "heading">Card with dismiss</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+            justo imperdiet mollis nec vitae erat.
+            facilisis.
+          </p>
+
+        <div class="basic-card basic-card-vertical border-radius-5px card-dismiss">
+
+            <div class = "img-section">
+                <img class ="card-img card-flex-item border-radius-5px" src="/images/card-img.jpeg">
+                <button class="btn-wishlist border-radius-5px"><i class="bi bi-heart-fill"></i></button>
+                <span class="dismiss-on-card"><i class="bi bi-x-square-fill"></i></span>
+            </div>
+            
+            <div class="card-body">
+
+                <p>Trendy Elegant Women Tops & Tunics</p>
+
+                <div class = "price-details">
+                    <span class = "new-price">&#x20B9 158</span>
+                    <span class = "old-price">&#x20B9 225</span>
+                    <span class = "offer">30% off</spam>
+                </div>
+               
+                 <div class = "rating">
+                    <span>3.9</span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                 </div>
+                
+                <button class="btn-addtocart border-radius-5px"><i class="bi bi-cart"></i>Add To Cart</button>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <h2 class = "heading">Card with text overlay</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+            justo imperdiet mollis nec vitae erat.
+            facilisis.
+          </p>
+
+        <div class="basic-card basic-card-vertical border-radius-5px">
+            <div class = "text-overlay-container">
+
+                <div class = "img-section">
+                    <img class ="card-img card-flex-item border-radius-5px" src="/images/card-img.jpeg">
+                    <button class="btn-wishlist border-radius-5px"><i class="bi bi-heart-fill"></i></button>
+                    
+                </div>
+                
+                <div class="card-body">
+    
+                    <p>Trendy Elegant Women Tops & Tunics</p>
+    
+                    <div class = "price-details">
+                        <span class = "new-price">&#x20B9 158</span>
+                        <span class = "old-price">&#x20B9 225</span>
+                        <span class = "offer">30% off</spam>
+                    </div>
+                   
+                     <div class = "rating">
+                        <span>3.9</span>
+                        <span><i class="bi bi-star-fill"></i></span>
+                     </div>
+                    
+                    <button class="btn-addtocart border-radius-5px"><i class="bi bi-cart"></i>Add To Cart</button>
+                    
+    
+                </div>
+
+
+            </div>
+
+            <span class="text-overlay">Out Of Stock</i></span>
+            
+        </div>
+          
+
+
+        <h2 class = "heading">Text Only Card</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+            justo imperdiet mollis nec vitae erat.
+            facilisis.
+          </p>
+
+        <div class="basic-card basic-card-vertical border-radius-5px">
+
+            
+            <div class="card-body">
+                <h1>Text Only Card</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+                    justo imperdiet mollis nec vitae erat.
+                    facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+                    justo imperdiet mollis nec vitae erat.
+                    facilisis.</p>
+                
+
+            </div>
+            
+        </div>
+
+
+
+        <h2 class = "heading">Horizontal Card</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at orci at
+            justo imperdiet mollis nec vitae erat.
+            facilisis.
+          </p>
+
+        <div class="basic-card basic-card-horizontal border-radius-5px">
+
+            <div class = "img-section">
+                <img class ="card-img card-flex-item border-radius-5px" src="/images/card-img.jpeg">
+                <button class="btn-wishlist border-radius-5px"><i class="bi bi-heart-fill"></i></button>
+                <span class="badge-on-card">New</span>
+            </div>
+            
+            <div class="card-body">
+
+                <p>Trendy Elegant Women Tops & Tunics</p>
+
+                <div class = "price-details">
+                    <span class = "new-price">&#x20B9 158</span>
+                    <span class = "old-price">&#x20B9 225</span>
+                    <span class = "offer">30% off</spam>
+                </div>
+               
+                 <div class = "rating">
+                    <span>3.9</span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                 </div>
+                
+                <button class="btn-addtocart border-radius-5px"><i class="bi bi-cart"></i>Add To Cart</button>
+                
+
+            </div>
+            
+        </div>
+
+        
+          
+        
+      </main>
+    </div>
+  </body>
+</html>

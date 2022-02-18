@@ -1,0 +1,152 @@
+body{
+    margin-bottom: 5rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.basic-card{
+    margin-left: 5rem;
+    position: relative;
+    display: flex;
+    box-shadow: 0 0 5px 1px var(--light-grey);
+}
+
+.basic-card-vertical{
+    width: 20rem;
+    flex-direction: column;
+}
+
+.basic-card-horizontal{
+    flex-direction: row;
+    width: 40rem;
+    align-items:center; 
+}
+
+.img-section{
+    position: relative;
+    flex: 1;
+}
+
+.card-body{
+    margin: 1rem;
+    flex: 1;
+} 
+
+.price-details{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding:5px;
+}
+
+.card-body p,
+.old-price,.offer{
+    color: var(--grey);
+}
+
+.new-price,.offer{
+    font-weight: bold;
+}
+
+.new-price{
+    font-size: 1.5rem;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.rating{
+    background-color: var(--green);
+    display: flex;
+    width: 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 5px; 
+    color: var(--white);
+}
+
+.rating i{
+    font-size: 0.8rem;
+}
+
+.btn-wishlist{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 1.6rem;
+    top: 5px;
+    right: 1rem;
+    color: var(--light-red2);
+}
+
+.btn-wishlist:hover{
+    color: var(--light-red3);
+}
+
+.btn-addtocart{
+    margin-top: 8px;
+    padding: 5px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: var(--light-red2);
+    color: var(--white);
+}
+
+.btn-addtocart:hover{
+    background-color: var(--light-red3);
+}
+
+.btn-addtocart i{
+    margin-right: 5px;   
+}
+
+.btn-wishlist,
+.btn-addtocart{
+    border: none;
+}
+
+button,.basic-card{
+    cursor: pointer;
+}
+
+.border-radius-5px{
+    border-radius: 5px;
+}
+
+.badge-on-card{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background-color: var(--red);
+    padding: 3px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.dismiss-on-card{
+    font-size: 1.5rem;
+    color: var(--grey);
+    padding: 2px;
+    position: absolute;
+    top: -6px;
+    left: -2px;
+}
+
+.text-overlay-container{
+    opacity: 0.5;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 1px;
+    font-size: 2rem;
+    top: 8rem;
+    left: 5rem; 
+}

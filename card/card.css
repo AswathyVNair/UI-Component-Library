@@ -3,7 +3,7 @@ body{
 }
 
 img{
-    width:100%;
+    width: 100%;
     height: auto;
 }
 
@@ -15,7 +15,7 @@ img{
 }
 
 .basic-card-vertical{
-    width:20rem;
+    width: 20rem;
     flex-direction: column;
 }
 
@@ -26,8 +26,8 @@ img{
 }
 
 .img-section{
-    position:relative;
-    flex:1;
+    position: relative;
+    flex: 1;
 }
 
 .card-body{
@@ -44,7 +44,7 @@ img{
 
 .card-body p,
 .old-price,.offer{
-    color:var(--grey);
+    color: var(--grey);
 }
 
 .new-price,.offer{
@@ -66,7 +66,7 @@ img{
     justify-content: space-evenly;
     align-items: center;
     border-radius: 1rem;
-    padding:5px; 
+    padding: 5px; 
     color: var(--white);
 }
 
@@ -81,30 +81,30 @@ img{
     justify-content: center;
     background-color: transparent;
     font-size: 1.6rem;
-    top:5px;
-    right:1rem;
-    color:var(--light-red2);
+    top: 5px;
+    right: 1rem;
+    color: var(--light-red2);
 }
 
 .btn-wishlist:hover{
-    color:var(--light-red3);
+    color: var(--light-red3);
 }
 
 .btn-addtocart{
-    margin-top:8px;
-    padding:5px;
+    margin-top: 8px;
+    padding: 5px;
     width: 100%;
     font-size: 1rem;
-    background-color:var(--light-red2);
+    background-color: var(--light-red2);
     color: var(--white);
 }
 
 .btn-addtocart:hover{
-    background-color:var(--light-red3);
+    background-color: var(--light-red3);
 }
 
 .btn-addtocart i{
-    margin-right:5px;   
+    margin-right: 5px;   
 }
 
 .btn-wishlist,
@@ -117,15 +117,15 @@ button,.basic-card{
 }
 
 .border-radius-5px{
-    border-radius:5px;
+    border-radius: 5px;
 }
 
 .badge-on-card{
     position: absolute;
-    left:0;
-    top:5px;
+    left: 0;
+    top: 5px;
     background-color: var(--red);
-    padding:3px;
+    padding: 3px;
     color: var(--white);
     font-weight: bold;
 }
@@ -135,18 +135,18 @@ button,.basic-card{
     color: var(--grey);
     padding: 2px;
     position: absolute;
-    top:-6px;
+    top: -6px;
     left: -2px;
 }
 
 .text-overlay-container{
-    opacity:0.5;
+    opacity: 0.5;
 }
 
 .text-overlay{
-    position:absolute;
-    top:1px;
-    font-size:2rem;
+    position: absolute;
+    top: 1px;
+    font-size: 2rem;
     top: 8rem;
     left: 5rem; 
 }

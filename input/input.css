@@ -1,0 +1,89 @@
+textarea{
+    border-radius: 10px;
+    resize: none;
+    width: 40rem;
+    height: 5rem;
+    padding: 1rem;
+    outline: none;
+}
+
+.border-grey{
+    border:2px solid var(--light-grey);
+
+}
+textarea:focus{
+    border:2px solid var(--green);
+}
+
+label{
+    display: block;
+}
+
+.input-label:after{
+    content: "*";
+    color: var(--red);
+}
+.input-box input,.input-box-invalid input{
+    width: 20rem;
+    height: 3rem;
+}
+
+.input-box input{
+    border-radius: 10px;
+    
+}
+
+.input-box input:focus{
+    outline: none;
+    border: 2px solid var(--green);
+}
+
+.input-box-invalid input{
+    border:2px solid var(--red);
+    border-radius: 10px;
+}
+
+.input-box-invalid input:focus{
+    outline: none;
+    border: 2px solid var(--dark-red);
+}
+
+.error-message{
+    color:var(--red);
+}
+
+.input-box{
+    position: relative;
+}
+
+.input-box-icon button{
+    font-size: 1.2rem;
+    border: none;
+    background-color:var(--white);
+    padding:8px;
+    color: var(--grey);
+}
+
+.input-icon-container{
+    margin: 3px;
+    display: flex;
+    width: 30rem;
+}
+
+.input-box-icon input{
+    padding-left: 3px;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    outline: none;
+}
+
+.checkbox-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.radio-container{
+    display: flex;
+    flex-direction: row-reverse;
+}

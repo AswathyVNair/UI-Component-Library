@@ -1,0 +1,19 @@
+.list-item{
+    margin-bottom: 1.5rem;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.notification-list{
+    padding: 0;
+    border: 1px solid var(--light-grey);
+    display: flex;
+    flex-direction: column;
+}
+
+.notification-list li{
+    border: 1px solid var(--light-grey);
+    padding: 1rem;
+}

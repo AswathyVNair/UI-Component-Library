@@ -12,6 +12,7 @@
   --light-green:#dcfce7;
   --light-cyan:#cffafe;
   --grey:#4b5563;
+  --grey-text:#737373;
   --light-grey:#cbd5e1;
   --dark-yellow:#f59e0b;
   --yellow:#fbbf24;
@@ -120,10 +121,13 @@ body{
 }
 
 .display-container{
-  background-color: var(--display-container-bg);
-  border-radius: 1rem;
+    background-color: var(--display-container-bg);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.display-flex-container{
   display: flex;
-  padding: 2rem;
   width:85%;
   justify-content: space-around;
   margin-bottom: 1rem;

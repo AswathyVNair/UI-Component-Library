@@ -125,11 +125,11 @@ body{
     background-color: var(--display-container-bg);
     border-radius: 1rem;
     padding: 2rem;
+    margin-bottom: 1rem;
 }
 
 .display-flex-container{
   display: flex;
   width:85%;
   justify-content: space-around;
-  margin-bottom: 1rem;
 }

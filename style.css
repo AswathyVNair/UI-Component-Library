@@ -5,6 +5,7 @@
 @import url(card/card.css);
 @import url(image/image.css);
 @import url(input/input.css);
+@import url(navigation/navigation.css);
 
 :root{
   --dark-green:#065f46;

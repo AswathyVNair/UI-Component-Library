@@ -6,6 +6,7 @@
 @import url(image/image.css);
 @import url(input/input.css);
 @import url(navigation/navigation.css);
+@import url(typography/typography.css);
 
 :root{
   --dark-green:#065f46;

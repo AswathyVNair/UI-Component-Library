@@ -42,7 +42,7 @@
 
 *{
   font-family: 'Open Sans', sans-serif;
-  
+
   box-sizing: border-box;
 }
 
@@ -135,4 +135,8 @@ body{
   display: flex;
   width:85%;
   justify-content: space-around;
+}
+
+iframe{
+  margin: 2rem;
 }
